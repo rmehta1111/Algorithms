@@ -9,7 +9,7 @@ print(v)
 
 #Code snippet for solving lot of codechef problems:
 i =int(input())
-for j in range(i*2):
+for j in range(2*i):
     if j%2 == 0:
         f,s = map(int,input().split())
         A=1;
