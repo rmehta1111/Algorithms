@@ -1,0 +1,6 @@
+# When dealing with Booleans it is better to use the whole conditions than using True and False
+
+# Can use dictionary to deal with codechef problems where you need to compare entities- 
+For example- Green>Blue>Brown gene order and choosing the better gene in every 2 parents can be dealt with using-
+x = {'Green':1,'Blue':0,'Brown': -1}
+
