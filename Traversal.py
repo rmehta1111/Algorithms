@@ -7,7 +7,7 @@ for i in range(1,len(l)):
     v = l[i]
 print(v)
 
-#Code snippet for solving lot of codechef problems:
+#Code snippet for solving lot of codechef problems where would need to process alternate inputs:
 i =int(input())
 for j in range(2*i):
     if j%2 == 0:
