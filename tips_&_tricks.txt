@@ -4,3 +4,5 @@
 For example- Green>Blue>Brown gene order and choosing the better gene in every 2 parents can be dealt with using-
 x = {'Green':1,'Blue':0,'Brown': -1}
 
+#For movement questions- a distance forward in one step and b distance backward in one step:
+Can use (a-b)*(k/2) + (a-b)*(k%2) total distance travelled in k steps
