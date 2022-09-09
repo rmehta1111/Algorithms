@@ -103,3 +103,16 @@ for j in range(i):
             r = 'loses'
             break;
     print(r)
+
+#Can be used for COLD START in bytestream data-
+    #Check usage of a=-1
+i = int(input())
+for j in range(i):
+    n = int(input())
+    a=-1
+    c=0
+    for m in input().split():
+        if int(m)==a:
+            c += 1
+        a = int(m)
+    print(n-c)
