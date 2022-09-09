@@ -57,3 +57,6 @@ for j in range(i):
 #For accessing elements in a string till end use:
 for x in given_string:
     print(x)
+
+#In case of list index out of range- check if you are reading all input().split() correctly even if you do not require them
+No need to save them as a variable also
