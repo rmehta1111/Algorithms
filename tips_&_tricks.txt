@@ -60,3 +60,17 @@ for x in given_string:
 
 #In case of list index out of range- check if you are reading all input().split() correctly even if you do not require them
 No need to save them as a variable also
+
+
+##### Arrays ######
+#Way to get number of occurences of categories- "M" and "F"
+i = int(input())
+for j in range(i):
+    l = int(input())
+    c = 0
+    for k in input().split():
+        if k[0] == 'M':
+            c +=1
+        else:
+            c -=1
+    print(str(int((l+c)/2)) + " " + str(int((l-c)/2)))
