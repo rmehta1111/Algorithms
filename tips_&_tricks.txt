@@ -42,3 +42,15 @@ for j in range(i):
         print('YES')
     else:
         print('NO')
+        
+#Place where I had to include a "=" sign to pass the test cases- Maximum possible sum for 2 nums out of 3
+i =int(input())
+for j in range(i):
+    a,b,c = map(int,input().split())
+    if (c <= a) and (c <= b):
+        print (a + b)
+    elif (b <= a) and (b <= c):
+        print (a + c)
+    else:
+        print (b + c)
+        
