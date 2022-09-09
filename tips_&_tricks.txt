@@ -6,3 +6,13 @@ x = {'Green':1,'Blue':0,'Brown': -1}
 
 #For movement questions- a distance forward in one step and b distance backward in one step:
 Can use (a-b)*(k/2) + (a-b)*(k%2) total distance travelled in k steps
+
+#When looking at festival holidays, used this code for tackling unrequired date numbers:
+i=int(input())
+for j in range(i):
+    k = int(input())
+    c = 8
+    for m in input().split():
+        if not((int(m)%7 == 6)) and not((int(m)%7 == 0)):
+            c = c + 1
+    print(c)
