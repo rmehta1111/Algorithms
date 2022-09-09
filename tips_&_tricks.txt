@@ -87,3 +87,8 @@ for j in range(i):
             if k in [2,3,9]:
                 c +=1
     print(c)
+
+#Very specific program for checking palindrome for all integers
+#2 THINGS TO TAKE CARE OF-
+    #Usage of break
+    #Considering default as win( Can be used when sure of cases like single degrees are all palindromes)
