@@ -92,3 +92,14 @@ for j in range(i):
 #2 THINGS TO TAKE CARE OF-
     #Usage of break
     #Considering default as win( Can be used when sure of cases like single degrees are all palindromes)
+
+i = int(input())
+for j in range(i):
+    k = input()
+    m = (len(k))//2
+    r = 'wins'
+    for l in range(m):
+        if (k[l] != k[-1-l]):
+            r = 'loses'
+            break;
+    print(r)
