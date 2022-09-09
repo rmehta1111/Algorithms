@@ -33,3 +33,12 @@ for j in range(i):
         print(1)
     else:
         print(2)
+
+#When asked for lowest nearest integer use p//q:
+i = int(input())
+for j in range(i):
+    h,x,y,c = map(int,input().split())
+    if h*(x + (y//2)) <= c:
+        print('YES')
+    else:
+        print('NO')
