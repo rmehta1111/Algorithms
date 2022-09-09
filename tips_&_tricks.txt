@@ -74,3 +74,16 @@ for j in range(i):
         else:
             c -=1
     print(str(int((l+c)/2)) + " " + str(int((l-c)/2)))
+
+#Can edit the following code for getting numbers ending in 2,3 or 9 between 2 numbers- currently throwing error
+i = int(input())
+for j in range(i):
+    l,r = map(int,input().split())
+    qd = (r//10)-(l//10)
+    c = qd*3
+    d = r-l+1-((qd)*10)
+    if d > 0:
+        for k in range(l%10,(d+1)):
+            if k in [2,3,9]:
+                c +=1
+    print(c)
