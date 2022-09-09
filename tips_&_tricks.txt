@@ -16,3 +16,20 @@ for j in range(i):
         if not((int(m)%7 == 6)) and not((int(m)%7 == 0)):
             c = c + 1
     print(c)
+    
+#For reading inputs without explicitly mentioning- used a counter- but it threw an error:
+i = int(input())
+for j in range(i):
+    a = 0
+    b = 0
+    c = 0
+    for m in input().split():
+        if c%2 == 0:
+            a += int(m)
+        else:
+            b += int(m)
+        c+=1
+    if a>b:
+        print(1)
+    else:
+        print(2)
