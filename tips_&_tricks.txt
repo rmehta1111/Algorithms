@@ -54,3 +54,6 @@ for j in range(i):
     else:
         print (b + c)
         
+#For accessing elements in a string till end use:
+for x in given_string:
+    print(x)
