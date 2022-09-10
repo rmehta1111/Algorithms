@@ -136,3 +136,5 @@ for j in range(i):
     while not(n < m):
         n = n - m
     print(n)
+
+#In case of percentages and discounts- check the output and add an int in the final print output as required
