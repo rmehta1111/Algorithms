@@ -128,3 +128,11 @@ for j in range(i):
 
 #When we know that an event can happen every n seconds, the maximum number of events in time t will be:
 ### (t//n) + 1
+
+#Finding remainder- Usage of while condition
+i = int(input())
+for j in range(i):
+    n,m = map(int,input().split())
+    while not(n < m):
+        n = n - m
+    print(n)
