@@ -125,3 +125,6 @@ i = int(input())
 for j in range(i):
     n,m,o = map(int,input().split())
     print(((10*m)//o) + ((((10*m)%o) + (5*n))//o))
+
+#When we know that an event can happen every n seconds, the maximum number of events in time t will be:
+### (t//n) + 1
