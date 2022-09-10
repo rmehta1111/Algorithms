@@ -116,3 +116,12 @@ for j in range(i):
             c += 1
         a = int(m)
     print(n-c)
+
+####Math ####
+
+For maximum number of products which can be bought with denominations 5 and 10:
+#Check the usage of quotient and remainder- Division is by the price of 1 product
+i = int(input())
+for j in range(i):
+    n,m,o = map(int,input().split())
+    print(((10*m)//o) + ((((10*m)%o) + (5*n))//o))
