@@ -138,3 +138,9 @@ for j in range(i):
     print(n)
 
 #In case of percentages and discounts- check the output and add an int in the final print output as required
+
+#For netflix subscription question- to use residual number as a subscription used a condition on % in print itself
+i =int(input())
+for j in range(i):
+    n,x =map(int,input().split())
+    print(((n//6)+(n%6 > 0))*x)
